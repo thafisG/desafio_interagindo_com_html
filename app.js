@@ -1,16 +1,16 @@
 let titulo = document.querySelector('h1');
 titulo.innerHTML = "Hora do Desafio";
 
-function exibirMensagem() {
+function Console() {
     console.log("O botão foi clicado");
 }
 
 
-function mostrarAlerta() {
+function Alert() {
     alert("Eu amo JS");
 }
 
-function mostrarNomeCidade() {
+function Prompt() {
     let cidade = prompt("Digite o nome de uma cidade bem bonita e charmosa: ");
     if (cidade) {
         alert("Estive em " + cidade + " e lembrei de você.");
@@ -19,7 +19,7 @@ function mostrarNomeCidade() {
     }
 }
 
-function soma() {
+function Soma() {
     let num1 = parseInt(prompt("Digite o primeiro número inteiro:"));
     let num2 = parseInt(prompt("Digite o segundo número inteiro:"));
 
